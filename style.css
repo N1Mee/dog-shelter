@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin-bottom: 220px;
+}
+
+.container{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+nav h1{
+    font-size: 30px;
+    color: #F1CDB3;
+}
+
+nav p{
+    font-size: 13px;
+    color: white;
+}
+
+.links a{
+    text-decoration: none;
+    color: #F1CDB3;
+}
+
+.links{
+    display: flex;
+    width: 443px;
+    justify-content: space-between;
+}
+
+.links a:active{
+    border-bottom: 1px solid #F1CDB3;
+    color: white;
+}
+
+.house{
+    max-width: 460px;
+    margin-bottom: 40px;
+}
+
+.house h1{
+    font-size: 52px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.house p{
+    color: #CDCDCD;
+}
+
+.make-friend{
+    text-decoration: none;
+    color: black;
+    max-width: 207px;
+    max-height: 52px;
+    background-color: #F1CDB3;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 25px;
+    
+}
+
+header{
+    background-image: linear-gradient(to top left, #262425, #5B483A);
+    margin-bottom: 100px;
+}
+
+header .container{
+    background-image: url(images/start-screen-puppy.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 350px;
+}
+
+.about img{
+    float: left;
+    padding-left: 25%;
+    padding-right: 10%;
+}
+
+.about div{
+    padding-right: 25%;
+}
+
+.about h1{
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.about p{
+    margin-bottom: 50px;
+}
+
+.about{
+    margin-bottom: 200px;
+}
+
+.friends{
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+}
+
+.friends h2{
+    padding-bottom: 50px;
+    font-size: 40px;
+    width: 350px;
+    margin: auto;
+}
+
+.small-container{
+    width: 400px;
+}
+
+.card{
+    background-color: #FAFAFA;
+    border-radius: 10px;
+}
+
+.cards .first{
+    width: 52px;
+    height: 52px;
+    border: 1px solid #F1CDB3;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.friends button{
+    width: 261px;
+    height: 52px;
+    background-color: #F1CDB3;
+    border: none;
+    border-radius: 30px;
+    margin-top: 80px;
+}
+
+.cards .second{
+    width: 52px;
+    height: 52px;
+    border: 1px solid #F1CDB3;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.card p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #545454;
+}
+
+.card button{
+    text-decoration: none;
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.grey{
+    background-color: #F6F6F6;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.help{
+    padding-left: 87px;
+    padding-right: 87px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.help h1{
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.donation img{
+    float: left;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+.gray{
+    background-color: #F6F6F6;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    height: 464px;
+}
+
+.donation h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.credit{
+    background-color: #F1CDB3;
+    /* width: 349px; */
+    height: 43px;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description{
+    color: #B2B2B2;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    background-image: linear-gradient(to top left, #262425, #5B483A);
+}
+
+.footer-first h1{
+    color: white;
+    margin-top: 16px;
+    width: 278px;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.email{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+.email p{
+    color: #F1CDB3;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.phone{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.phone p{
+    color: #F1CDB3;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.footer-second h1{
+    color: white;
+    margin-top: 16px;
+    width: 278px;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.geo1{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.geo1 p{
+    color: #F1CDB3;
+    font-size: 21px;
+    vertical-align: middle;
+    margin-left: 35px;
+}
+
+.geo2{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.geo2 p{
+    color: #F1CDB3;
+    font-size: 21px;
+    vertical-align: middle;
+}
